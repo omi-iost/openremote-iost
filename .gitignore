@@ -29,3 +29,5 @@ Configuration/Projects/Power/Build/Cs/bin/
 
 Configuration/Projects/Power/Build/Cs/obj/
 /Configuration/Projects/Steering/Build/SteeringProgramsSimulation/x64/Debug
+/Configuration/Projects/Power/Build/PowerProgramsSimulation/ARM64/Debug
+/Configuration/Projects/Steering/Build/SteeringProgramsSimulation/ARM64/Debug
