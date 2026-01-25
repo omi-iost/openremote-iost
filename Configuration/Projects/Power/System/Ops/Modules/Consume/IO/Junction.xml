@@ -1,22 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="Junction">
     <Description>Power junction switches for Open Power and Steering systems</Description>
+    <Properties>
+        <Enumeration LocalID="TypeMaxFuseCurrent">
+            <Type Name="60A" TypeID="0"/>
+            <Type Name="80A" TypeID="1"/>
+            <Type Name="100A" TypeID="2"/>
+            <Type Name="125A" TypeID="3"/>
+            <Type Name="150A" TypeID="4"/>
+            <Type Name="175A" TypeID="5"/>
+            <Type Name="200A" TypeID="6"/>
+            <Type Name="225A" TypeID="7"/>
+            <Type Name="250A" TypeID="8"/>
+            <Type Name="300A" TypeID="9"/>
+            <Type Name="400A" TypeID="10"/>
+            <Type Name="500A" TypeID="11"/>
+        </Enumeration>
+    </Properties>
     <DeviceClassObject GlobalID="Ops.Consume.Junction" Category="IO">
         <Properties>
-            <Enumeration LocalID="TypeMaxFuseCurrent">
-                <Type Name="60A" TypeID="0"/>
-                <Type Name="80A" TypeID="1"/>
-                <Type Name="100A" TypeID="2"/>
-                <Type Name="125A" TypeID="3"/>
-                <Type Name="150A" TypeID="4"/>
-                <Type Name="175A" TypeID="5"/>
-                <Type Name="200A" TypeID="6"/>
-                <Type Name="225A" TypeID="7"/>
-                <Type Name="250A" TypeID="8"/>
-                <Type Name="300A" TypeID="9"/>
-                <Type Name="400A" TypeID="10"/>
-                <Type Name="500A" TypeID="11"/>
-            </Enumeration>
             <Variable LocalID="MaxFuseCurrent" TypeEnumeration="TypeMaxCurrentFuse">6</Variable>
         </Properties>
         <PortsCollection>
